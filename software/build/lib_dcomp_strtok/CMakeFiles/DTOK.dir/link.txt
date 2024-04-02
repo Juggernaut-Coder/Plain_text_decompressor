@@ -1,0 +1,2 @@
+/usr/bin/ar qc libDTOK.a CMakeFiles/DTOK.dir/dtok.c.o
+/usr/bin/ranlib libDTOK.a

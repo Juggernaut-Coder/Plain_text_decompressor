@@ -1,0 +1,33 @@
+#!/bin/sh
+PROGRAM_NAME="DECOMPRESSION"
+BUILD_DIR="build/"
+
+compile() {
+	cd $BUILD_DIR && cmake .. && make
+	return 0
+}
+
+create_dir_compile() {
+	[ ! -d $BUILD_DIR ] && mkdir -p $BUILD_DIR && echo "-- Creating a new empty build directory:$("pwd")/$BUILD_DIR - done" 
+	compile
+}
+
+clean() {
+	echo "-- Cleaning files and directories"
+	[ -f $PROGRAM_NAME ] && rm $PROGRAM_NAME && echo "-- Deleting program: $PROGRAM_NAME - done"
+	[ -d $BUILD_DIR ] && rm -rf $BUILD_DIR && echo "-- Deleting build directory: $BUILD_DIR - done"
+	echo "-- Cleaning - done"		
+}
+
+if [ "$1" = "clean-install" ]; then
+	clean
+	create_dir_compile
+	return 0
+elif [ "$1" = "clean" ]; then
+	clean
+	return 0
+elif [ -z $1 ]; then
+	create_dir_compile
+	return 0	
+fi
+

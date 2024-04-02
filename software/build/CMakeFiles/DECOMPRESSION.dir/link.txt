@@ -1,0 +1,1 @@
+/usr/bin/gcc  -Wall -Wextra CMakeFiles/DECOMPRESSION.dir/src/main.c.o -o /home/dirtyv/Codes/computer_systems/Assignment5_Plaintext_Decompressor/software/DECOMPRESSION  lib_dllist/libDLL.a lib_dcomp_strtok/libDTOK.a 

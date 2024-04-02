@@ -1,0 +1,2 @@
+/usr/bin/ar qc libDLL.a CMakeFiles/DLL.dir/decompression_list.c.o
+/usr/bin/ranlib libDLL.a

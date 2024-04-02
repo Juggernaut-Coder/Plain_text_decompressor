@@ -1,0 +1,9 @@
+/home/dirtyv/Codes/computer_systems/Assignment5_Plaintext_Decompressor/software/build/CMakeFiles/DECOMPRESSION.dir
+/home/dirtyv/Codes/computer_systems/Assignment5_Plaintext_Decompressor/software/build/CMakeFiles/edit_cache.dir
+/home/dirtyv/Codes/computer_systems/Assignment5_Plaintext_Decompressor/software/build/CMakeFiles/rebuild_cache.dir
+/home/dirtyv/Codes/computer_systems/Assignment5_Plaintext_Decompressor/software/build/lib_dllist/CMakeFiles/DLL.dir
+/home/dirtyv/Codes/computer_systems/Assignment5_Plaintext_Decompressor/software/build/lib_dllist/CMakeFiles/edit_cache.dir
+/home/dirtyv/Codes/computer_systems/Assignment5_Plaintext_Decompressor/software/build/lib_dllist/CMakeFiles/rebuild_cache.dir
+/home/dirtyv/Codes/computer_systems/Assignment5_Plaintext_Decompressor/software/build/lib_dcomp_strtok/CMakeFiles/DTOK.dir
+/home/dirtyv/Codes/computer_systems/Assignment5_Plaintext_Decompressor/software/build/lib_dcomp_strtok/CMakeFiles/edit_cache.dir
+/home/dirtyv/Codes/computer_systems/Assignment5_Plaintext_Decompressor/software/build/lib_dcomp_strtok/CMakeFiles/rebuild_cache.dir
